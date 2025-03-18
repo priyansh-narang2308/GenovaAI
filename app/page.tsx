@@ -17,12 +17,7 @@ export default function Home() {
           }}
         >
           <div className="max-w-3xl mx-auto text-center">
-            {/* Membership banner */}
-            <div className="mb-8">
-              <span className="inline-block bg-gray-200 text-gray-700 text-sm font-medium px-4 py-2 rounded-full">
-                TUBEGURUJI MEMBER • JOIN NOW
-              </span>
-            </div>
+        
             {/* Heading */}
             <h1 className="text-5xl md:text-6xl font-extrabold mb-6">
               AI Content <span className="text-blue-600">Generator</span>
