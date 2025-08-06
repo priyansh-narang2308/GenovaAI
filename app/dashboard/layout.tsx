@@ -1,6 +1,7 @@
 import React from 'react'
 import SideNav from './_components/SideNav';
 import Header from './_components/Header';
+import { CreditProvider } from "../context/CreditContext";
 
 const DashboardLayout = (
     {
@@ -15,8 +16,11 @@ const DashboardLayout = (
                 <SideNav />
             </div>
             <div className='md:ml-64'>
+                <CreditProvider>
+
                 <Header/>
                 {children}
+                </CreditProvider>
             </div>
 
         </div>
